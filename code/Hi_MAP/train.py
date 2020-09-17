@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """
     Main training workflow
 
@@ -10,7 +9,6 @@ Run with: py36
 from __future__ import division
 import argparse
 import os
-#os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import signal
 import torch
 
